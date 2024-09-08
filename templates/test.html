@@ -1,0 +1,18 @@
+{% load blog_extras %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Titlaaaaae</title>
+</head>
+<body>
+
+<form method="post" action="">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button>submit</button>
+</form>
+
+
+</body>
+</html>
